@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My app/Authorization</title>
+    <link rel="stylesheet" type="text/css" href="/style.css">
+</head>
+<body>
+<div class="app_container">
+    <header>
+        <div class="header_logo">My app</div>
+        <div class="header_controllers">
+            <!--                <button class="signout">Sign out</button>-->
+            <!--                <button class="change_password">Change password</button>-->
+        </div>
+    </header>
+    <div class="log__form__container">
+        <form id="loginForm" method="get" class="login_form">
+            <h1> Log in</h1>
+            <input type="text" placeholder="Username" name="username" class="login_input" autocomplete="off">
+            <input placeholder="Enter your password" type="password" name="password" class="login_input" autocomplete="off">
+            <div class="message" id="error_message"></div>
+            <button name="Send" type="submit" id="login-submit" data-submit="...Sending" class="login_button">Log in</button>
+            <div class="under__log__form" >Don't have an account?<a class="under__log__form reg__link" href="registration.html"> Register now for free!</a></div>
+        </form>
+    </div>
+    <footer>Aleksandra Dubowska</footer>
+
+</div>
+<script src="authorization.js"></script>
+</body>
+</html>
